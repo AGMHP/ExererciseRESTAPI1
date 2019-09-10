@@ -1,0 +1,19 @@
+body{
+    background-color: whitesmoke;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+h1{
+    text-align: center;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border: none;
+}

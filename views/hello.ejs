@@ -1,0 +1,10 @@
+<% include header %>
+<h1>hello</h1>
+<% namq.forEach(function(n1){%>
+    <li><%= n1 %></li>
+<%});%>
+<form action="/request" method="post">
+<input type="name" name="newHolder" />
+<button value="confirm" submit="submit">Button</button>
+</form>
+<% include footer %>

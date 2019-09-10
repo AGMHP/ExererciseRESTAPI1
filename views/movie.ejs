@@ -1,0 +1,10 @@
+<% include header %>
+<h1>Movie's Pamplate</h1>
+<table>
+<% data["Search"].forEach(function(movie){%>
+<tr><td><img src=<%= movie["Poster"] %>></td><td><%= movie["Title"]%></td></tr>
+<%});%>
+</table>
+<a href="/movie">back</a>
+
+<% include footer %>

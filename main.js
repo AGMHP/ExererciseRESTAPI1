@@ -10,7 +10,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const namelst = ["Maulik","MH","MHAghori","AghoriMH"];
 
 app.get('/',  (req, res) => {
-  res.send('Maulik Aghori');
+  res.send('Hey there, just a normal app showing'+
+  " <br> how I use express customizable urls and fetch json data." 
+  +'<br>  Please try out this urls: <br> >/examples/(gameid) <br> >/ejs <br>>/movie <br>>/search'
+  +'<br>>/request <br> >/post <br> <b>Thanks for visiting.</b>   ');
 });
 
 app.get('/examples/:games', (req, res)=> {
